@@ -1,6 +1,6 @@
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(65, window.innerWidth / window.innerHeight, 0.1, 100);
-camera.position.z = 5;
+camera.position.z = 4;
 scene.add(camera);
 
 let box = new THREE.BoxGeometry(1, 1, 1);
